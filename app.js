@@ -9,7 +9,7 @@ const writeStream = fs.createWriteStream('scrape.csv');
 writeStream.write(`Names \n`);
 
 // request('put_url', (error, response, html) => {
-//   if (!error && response.statusCode == 200) {
+//   if (!error && response.statusCode == 200) {   // check if response is successful
 //     const $ = cheerio.load(html);
        
        // sample
@@ -18,9 +18,9 @@ writeStream.write(`Names \n`);
 //         .find('.post-title')
 //         .text()
 //         .replace(/\s\s+/g, '');
+
       // Write Row To CSV
-      // Write Row To CSV
-      // writeStream.write(`${title}, ${link}, ${date} \n`);
+      // writeStream.write(`${title} \n`);
 // });
 
 const markup = '<ul class="usernames"><li>janedoe</li><li>maxweber</li><li>greengoblin</li<li>maxweber34</li><li>alpha123</li><li>chrisjones</li><li>amelia</li><li>mrjohn34</li><li>matjoe212</li><li>eliza</li><li>commando007</li></ul>' 
