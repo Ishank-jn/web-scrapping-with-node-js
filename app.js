@@ -13,9 +13,9 @@ writeStream.write(`Names \n`);
 //     const $ = cheerio.load(html);
        
        // sample
-//     $('.post-preview').each((i, el) => {
+//     $('Cheerio selectors').each((i, el) => {
 //       const title = $(el)
-//         .find('.class_name')
+//         .find('Cheerio selectors')     // refer https://zetcode.com/javascript/cheerio/
 //         .text()
 //         .replace(/\s\s+/g, '');
 
