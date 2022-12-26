@@ -15,7 +15,7 @@ writeStream.write(`Names \n`);
        // sample
 //     $('.post-preview').each((i, el) => {
 //       const title = $(el)
-//         .find('.post-title')
+//         .find('.class_name')
 //         .text()
 //         .replace(/\s\s+/g, '');
 
